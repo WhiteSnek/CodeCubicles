@@ -12,5 +12,5 @@ so here we are to assist you
 2) Potential for social integration :
       - The app can integrate social features, allowing users to share their outfits, style tips, and recommendations with friends and followers.
   
-Our ppt link : https://www.canva.com/design/DAGDn9h4FTQ/pywHsVfK2QhXta8DhHM7uw/edit?utm_content=DAGDn9h4FTQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+PPT link : https://www.canva.com/design/DAGDn9h4FTQ/pywHsVfK2QhXta8DhHM7uw/edit?utm_content=DAGDn9h4FTQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
