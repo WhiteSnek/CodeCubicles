@@ -6,7 +6,7 @@ attending meetups, giving interviews, or standing out at the party or even a fam
 who doesn't want to look good or stunning ( to impress our crushes )
 so here we are to assist you
 
-                Our USPS:
+###       Our USPS: 
 1) Real-Time Feedback While Shopping :
       - This feature enhances the shopping experience by providing instant advice on whether a particular item suits the user's style and preferences.
 2) Potential for social integration :
