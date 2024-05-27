@@ -1,4 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Poetsen+One&family=Rozha+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.kaushan-script-regular {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
+.poetsen-one-regular {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.carter-one-regular {
+  font-family: "Carter One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rozha-one-regular {
+  font-family: "Rozha One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.graduate-regular {
+  font-family: "Graduate", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hero-btn {
+  background: #e02c26;
+}
+.hero-btn svg {
+  height: 65px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 720px) {
+  .hero-btn svg{height: 37px;}
+}
+
+.hero-btn rect {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-dasharray: 422, 0;
+  transition: all 0.35s linear;
+}
+
+.hero-btn:hover {
+  background-color: #ef2019;
+  letter-spacing: 1px;
+}
+.hero-btn:hover rect {
+  stroke-width: 5;
+  stroke-dasharray: 15, 310;
+  stroke-dashoffset: 48;
+  transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@layer utilities {
+  .flex-center {
+    @apply flex items-center justify-center
+  }
+  .control-btn {
+    @apply ml-4 p-4 rounded-full bg-pink-500 backdrop-blur flex-center
+  }
+  .video-carousel_container {
+    @apply relative sm:w-[70vw] w-[88vw] md:h-[70vh] sm:h-[50vh] h-[35vh]
+  }
+}
