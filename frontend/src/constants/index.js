@@ -71,3 +71,32 @@ export const hightlightsSlides = [
       videoDuration: 3.63,
     },
   ];
+
+
+export const services = [
+  {
+    id: 1,
+    name: "Trend Analysis",
+    description: "The app could use machine learning algorithms to analyze fashion trends from various sources, including fashion shows, social media,and online retailers. For 2024, some of the trends include micro-fringe, business sensual attire, and major mod micro-minis12.",
+    color: "#ff0000"
+  },
+  {
+    id: 2,
+    name: "Personal Style Profiling",
+    description: "Users can input their style preferences, body type, and other personal characteristics. The app can then suggest utfits that match their unique style.",
+    color: "blue",
+  },
+  {
+    id: 3,
+    name: "Virtual Wardrobe",
+    description: "Users can upload pictures of their existing wardrobe, and the app can help create new outfit combinations or suggest missing pieces to complete their look.",
+    color: " #ff66ff"
+  },
+  {
+    id: 4,
+    name: "Shopping Assistant",
+    description:" Integrating with online stores, the app can recommend clothing items from various brands that fit the user’s style and budget.",
+    color: "green"
+    
+  }
+]

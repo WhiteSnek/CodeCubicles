@@ -75,7 +75,7 @@ const VideoCarousel = () => {
               // set the background color of the progress bar
               gsap.to(span[videoId], {
                 width: `${currentProgress}%`,
-                backgroundColor: "#FF99E0",
+                backgroundColor: 'rgb(241 245 249)'
               });
             }
           },
@@ -87,7 +87,7 @@ const VideoCarousel = () => {
                 width: "12px",
               });
               gsap.to(span[videoId], {
-                backgroundColor: "FF5CCE",
+                backgroundColor: 'rgb(226 232 240)',
               });
             }
           },
@@ -156,7 +156,7 @@ const VideoCarousel = () => {
     const handleLoadedMetaData = (i, e) => setLoadedData((pre) => [...pre, e]);
   
     return (
-      <div className="bg-pink-200 p-6 sm:p-10">
+      <div className="bg-slate-500 p-6 sm:p-10">
         <div className="flex items-center ">
           {hightlightsSlides.map((list, i) => (
             <div key={list.id} id="slider" className="sm:pr-20 pr-10">
@@ -198,11 +198,11 @@ const VideoCarousel = () => {
         </div>
   
         <div className="relative flex-center mt-10">
-          <div className="flex-center py-5 px-7 bg-pink-500 backdrop-blur rounded-full">
+          <div className="flex-center py-5 px-7 bg-slate-600 backdrop-blur rounded-full">
             {videoRef.current.map((_, i) => (
               <span
                 key={i}
-                className="mx-2 w-3 h-3 bg-pink-200 rounded-full relative cursor-pointer"
+                className="mx-2 w-3 h-3 bg-slate-400 rounded-full relative cursor-pointer"
                 ref={(el) => (videoDivRef.current[i] = el)}
               >
                 <span

@@ -35,7 +35,7 @@
 }
 
 .hero-btn {
-  background: #e02c26;
+  background-color: rgb(3 7 18);
 }
 .hero-btn svg {
   height: 65px;
@@ -58,7 +58,7 @@
 }
 
 .hero-btn:hover {
-  background-color: #ef2019;
+  background-color: rgb(31 41 55);
   letter-spacing: 1px;
 }
 .hero-btn:hover rect {
@@ -73,7 +73,7 @@
     @apply flex items-center justify-center
   }
   .control-btn {
-    @apply ml-4 p-4 rounded-full bg-pink-500 backdrop-blur flex-center
+    @apply ml-4 p-4 rounded-full bg-slate-600 backdrop-blur flex-center
   }
   .video-carousel_container {
     @apply relative sm:w-[70vw] w-[88vw] md:h-[70vh] sm:h-[50vh] h-[35vh]

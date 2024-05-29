@@ -7,7 +7,7 @@ import { FaRegHeart } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <header className='sticky z-50 top-0 px-4 sm:px-10 py-2 w-screen shadow text-black  flex justify-between items-center'>
+    <header className='sticky z-50 top-0 px-4 sm:px-10 py-2 w-screen bg-white shadow text-black  flex justify-between items-center'>
       <NavLink to='/' className='font-bold text-lg sm:text-3xl'>
         Vastra<span className='text-pink-400'>Agaya</span>
       </NavLink>
