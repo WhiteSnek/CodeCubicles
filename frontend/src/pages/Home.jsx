@@ -1,10 +1,9 @@
 import React from 'react'
-import Slides from '../components/Home/Slides'
 import Categories from '../components/Home/Categories'
-import Studio from '../components/Home/Studio'
 import HeroSection from '../components/Home/HeroSection'
 import VideoCarousel from '../components/Home/VideoCarousel'
 import OurServices from '../components/Home/OurServices'
+import FAQ from '../components/Home/FAQ'
 const Home = () => {
   return (
     <div>
@@ -13,7 +12,7 @@ const Home = () => {
       <OurServices />
       <VideoCarousel />
       <Categories />
-      <Studio />
+      <FAQ />
     </div>
   )
 }

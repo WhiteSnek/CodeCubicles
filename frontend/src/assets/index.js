@@ -4,6 +4,7 @@ import HeroImage from "./heroImage.jpg";
 import pauseImg from "./pause.svg";
 import playImg from "./play.svg";
 import replayImg from "./replay.svg";
-import poster from './poster.jpg'
+import poster from './poster.jpg';
+import faqPoster from './poster-faq.jpg'
 
-export { Banner1, Banner2, HeroImage, pauseImg, playImg, replayImg, poster };
+export { Banner1, Banner2, HeroImage, pauseImg, playImg, replayImg, poster,faqPoster };
